@@ -1,0 +1,107 @@
+
+Tokens : 
+---------
+    Tokens are smallest unites the code 
+    1. identifiers 
+    2. keywords 
+    3. 
+
+Variables : 
+------------
+    ->Variables are the named memory location used to store values or data  and it can change N no during execution
+
+
+Collections : 
+-------------
+
+    ->Collection is the predefine interface present in "until" package 
+    ->Collections contains standard data structure methods 
+    ->Collection interface having 3 sub-interface
+        1. List [I]
+        2. Queue [I]
+        3. Set   [I]
+
+ArrayList[c] : 
+--------------
+    ->ArrayList is the predefine inbuilt class extends with List interface present in java.util package 
+    ->In ArrayList we can store both homogenous and heterogenous data 
+    ->ArrayList doesn't follow the fixed sized 
+    ->The Default size of the ArrayList 10 
+    ->It Follows order of insertion 
+    ->ArrayList allows the "null" values 
+    ->ArrayList allows duplicate values 
+    ->ArrayList not a synchronized in nature 
+
+
+Vector [c]: 
+----------
+    ->Vector is the predefine inbuilt class extends with List interface present in java.util package 
+    ->In Vector we can store both homogenous and heterogenous data 
+    ->Vector is also called as "legacy class" 
+    ->Vector doesn't follow the fixed sized 
+    ->The Default size of the Vector 5
+    ->It Follows order of insertion 
+    ->Vector allows the "null" values 
+    ->Vector allows duplicate values 
+    ->this is synchronized in nature 
+
+
+LinkedList [c]: 
+--------------
+    ->LinkedList is the predefine inbuilt class extends with List interface and Queue interface present in java.util package 
+    ->In LinkedList we can store both homogenous and heterogenous data 
+    ->LinkedList doesn't follow the fixed sized 
+    ->The Default size of the LinkedList 10
+    ->It Follows order of insertion 
+    ->LinkedList allows the "null" values 
+    ->LinkedList allows duplicate values 
+    ->LinkedList not a synchronized in nature 
+
+
+
+PriorityQueue : 
+--------------
+    ->PriorityQueue follows the first in first Out operation
+    ->PriorityQueue is the predefine inbuilt class extends with Queue interface present in java.util package 
+    ->in PriorityQueue we can store only homogenous data 
+    ->PriorityQueue will not accept "null" values 
+    ->it follows order insertion
+    ->The Default size of the PriorityQueue 10
+    
+TreeSet : 
+--------
+    ->TreeSet is predefine inbuilt class extends with Set interface present in java.util 
+    ->in TreeSet we can store only homogenous data 
+    ->TreeSet will not accept "null" values 
+    ->it doesn't follows order insertion
+    ->The Default size of the TreeSet 10
+    ->TreeSet is completely AutoSorted 
+    ->TreeSet will not allow the duplicate values  
+
+
+HashSet : 
+--------
+    ->HashSet is predefine inbuilt class extends with Set interface present in java.util 
+    ->in HashSet we can store both homogenous and heterogenous data
+    ->HashSet will accept "null" values 
+    ->it doesn't follows order insertion
+    ->The Default size of the HashSet 10
+    ->HashSet is perceally AutoSorted 
+    ->HashSet will not allow the duplicate values  
+
+
+LinkedHashSet : 
+--------------
+    ->LinkedHashSet is predefine inbuilt class extends with Set interface present in java.util 
+    ->in LinkedHashSet we can store both homogenous and heterogenous data
+    ->LinkedHashSet will accept "null" values 
+    ->it follows order insertion
+    ->The Default size of the LinkedHashSet 10
+    ->LinkedHashSet is not AutoSorted 
+    ->LinkedHashSet will not allow the duplicate values  
+
+
+Map : 
+----
+    ->Map is the predefine inbuilt interface present java.util package
+    ->when ever we want to store data in form of key and value formate 
