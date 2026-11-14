@@ -293,3 +293,52 @@ operator
     3. Subquery operators  [IN , NOT IN]
     4. [LIKE , NOT LIKE , BETWEEN]  
 
+    % ,_ 
+
+
+
+https://github.com/ashokm0603/APS-JAVA-FSD-Running-Notes.git
+
+
+
+Aggregate function : 
+---------------------
+    Types : 
+        1.single row Aggregate function  
+            i. length()
+            ii. upper() 
+            iii.lower() 
+            iv. subString() 
+            v. concat()
+
+        2.Multi row Aggregate function  
+                i. MAX()
+                ii. MIN()
+                iii. AVG()
+                iv. SUM()
+                v. COUNT()
+
+Normalization : 
+    Types : 
+        1. 1NF 
+        2. 2NF 
+        3. 3Nf 
+
+
+
+JDBC: 
+-----
+    ->JDBC is the java API for Connecting and querying relational databases 
+    ->it acts like a bridge between java and relational database(mysql , postgres .)
+
+
+JDBC steps : 
+-----------
+
+    1. load and register the "driver class" 
+    2. establish the Connection using DriverManager.getConnection() 
+    3. prepare statements/executeStatement
+    4. executeUpdate/execute / resultSet 
+    5. close the connection
+
+
