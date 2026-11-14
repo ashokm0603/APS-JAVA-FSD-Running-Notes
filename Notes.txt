@@ -13,7 +13,6 @@ Variables :
 
 Collections : 
 -------------
-
     ->Collection is the predefine interface present in "until" package 
     ->Collections contains standard data structure methods 
     ->Collection interface having 3 sub-interface
@@ -57,7 +56,8 @@ LinkedList [c]:
     ->LinkedList allows duplicate values 
     ->LinkedList not a synchronized in nature 
 
-
+poll() 
+peek()
 
 PriorityQueue : 
 --------------
@@ -105,3 +105,191 @@ Map :
 ----
     ->Map is the predefine inbuilt interface present java.util package
     ->when ever we want to store data in form of key and value formate 
+
+HashMap[c] 
+LinkedHashMap[c]
+TreeMap[c] 
+
+
+
+13-11-2026: 
+-----------
+    
+lambda function: 
+----------------
+    ->lambda function is the type of Anonyms function 
+    ->lambda function java 8 feature 
+    Syntax: 
+        (parameters)->expression
+
+
+    Ex: (a,b)->a+b
+
+    Ex: (a,b)-> {
+                int result=a+b;
+                return result;
+                }
+    Ex: (a)->{
+            System.out.println(a);
+            System.out.println(a+10);
+        }
+
+Method reference : 
+----------------
+    ->Methods reference of the shorthand way of writing a lambda expression when the lambda only calls an existing method 
+
+    ->Method reference [::] is the java 8 feature
+
+    Syntax: 
+       i.  className :: staticMethodName  
+        
+       ii. className ::instanceMethodName
+
+       iii. object :: instanceMethodName
+
+
+Stream API: 
+------------
+    ->Stream  API's are used to perform operation on collection data 
+    ->Stream API's only process the data , it will not store's data 
+    ->Stream API's is the java 8 feature
+    
+        intermediate method : 
+        1.filter() 
+        2.map() 
+        3.sort()
+
+
+        terminal method 
+        1.reduce()
+        2.forEach()
+
+
+
+
+
+Data : 
+------
+    Data is the row fact/peace of information 
+
+database : 
+----------
+    ->Database is the place where we can store data 
+
+DBMS : 
+------
+    ->DBMS stands for DataBase Management System is the software used to monitor and maintain the Data 
+
+
+Mysql Statements /Mysql Commands : 
+-----------------------------------
+
+    1. DDL [data definition language] -> it focus on structure/scheme of table
+        i.   create 
+        ii.  drop 
+        iii. truncate
+        iv.  rename
+        v.   alter 
+
+
+    2. DML [data manipulation language] ->it focus of data modification
+        i.   insert 
+        ii.  update 
+        iii. delete
+
+    3. DQL [data query language] ->it focus on retrieve data from table 
+        i. select 
+            (where , group by, having, order by, limit)
+
+    4. TCL [Transaction control language] 
+        i.  commit
+        ii. rollback
+
+    5. DCL[data control  language ]
+        i.  grant 
+        ii. revoke
+
+
+DataTypes in Mysql : 
+--------------------
+    1. int 
+    2. char 
+    3. varchar(n)
+    4. varchar2(n)
+    5. date 
+    6. boolean 
+    7. double  ..etc 
+
+
+
+Constraints : 
+-------------
+    ->Constraints are nothing but rules given to the table 
+
+    Single row Constraints : 
+        1. unique 
+        2. default 
+        3. not null 
+        4. check
+        5. auto_increment
+
+    Multi row Constraints/keys: 
+        1. primary key 
+            ->combination of unique and not null 
+            ->primary key is the Identity of the table (Identity key)
+            ->In Table Any one column having primary key but not more than one 
+
+
+        2. foreign key 
+            ->foreign keys allows the null value and duplicate records  
+            ->foreign key is the reference of the another table (reference key)
+            ->we can write one or more foreign key's in table  
+
+
+Note: while creating a table column name and datatype is mandatory , but Constraints are optional 
+
+
+
+
+
+Insert : 
+--------
+    i. insert  into  tableName Values(value1 , value2..)
+
+    ii. insert  into  tableName(columnName1 , columnName2) Values(value1 , value2..)
+
+
+
+Select : 
+-------
+    ->select used to retrieve data from data 
+
+    Ex: 
+        select * from tableName; 
+
+    note : * will retrieve all records
+    
+projections: 
+------------
+    ->projections are used to retrieve only required columns 
+
+    Ex: 
+        select columnName1 , columnName2 .. from tableName;
+
+alias : 
+-------
+    ->alias means need to give alternate name to column 
+    ->in mysql using "as" keyword
+
+
+filtering data : 
+---------------
+     ->using "where" clause we can filter data 
+
+operator 
+--------
+    1. relational operators/comparison operators [>,<,>=,<=]
+    2. logical operators [AND , OR ]
+    3. Subquery operators  [IN , NOT IN]
+    4. [LIKE , NOT LIKE , BETWEEN]  
+
