@@ -325,20 +325,20 @@ Normalization :
         3. 3Nf 
 
 
-
 JDBC: 
 -----
     ->JDBC is the java API for Connecting and querying relational databases 
-    ->it acts like a bridge between java and relational database(mysql , postgres .)
+    ->it acts like a bridge between java and relational database(mysql , postgres ...)
 
 
 JDBC steps : 
 -----------
 
-    1. load and register the "driver class" 
-    2. establish the Connection using DriverManager.getConnection() 
-    3. prepare statements/executeStatement
+    1. load and register the "driver class" using Class.forName("")
+    2. establish the Connection using DriverManager.getConnection(url , username , password) 
+    3. prepare statements/createStatement
     4. executeUpdate/execute / resultSet 
     5. close the connection
+
 
 
