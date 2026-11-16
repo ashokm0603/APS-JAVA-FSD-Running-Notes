@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100%;
+            background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/2327ffa4-20e9-41b6-b77c-462d26f7bfea/d3ecbzg-045f95bb-8610-4dbb-84ab-e1d08fb037d7.jpg");
+        }
+
+        form {
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        fieldset {
+            animation: scaling 5s;
+            border-radius: 10px 50px;
+            padding: 30px;
+            box-shadow: 5px 5px 5px 5px aliceblue;
+            border: none;
+            backdrop-filter: blur(50px);
+        }
+
+        @keyframes scaling {
+            0%{
+                transform: scale(0);
+            }100%{
+                transform: scale(1.2);
+            }
+        }
+
+
+        h1 {
+            text-align: center;
+            font-style: italic;
+        }
+
+        h1::first-letter {
+            text-shadow: 4px 4px 4px aliceblue;
+            font-size: 70px;
+        }
+        label{
+            font-weight: bold;
+            margin-right: 20px;
+            font-style: italic;
+        }
+        label::after{
+            content: "*";
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <h1>Sign In </h1>
+            <label for="">Username</label>
+            <input type="text" placeholder="Enter Username">
+
+            <br><br>
+            <label for="">Password</label>
+            <input type="password" placeholder="Enter Password">
+            <br><br>
+            <button>Login</button>
+            <button>Cancel</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

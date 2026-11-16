@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCS Job Application</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>TCS Application</legend>
+
+            <!-- <input type="button" value="login">
+            <input type="reset">
+            <input type="submit">
+            <input type="search">
+            <input type="url">
+            <br><br> -->
+
+
+
+            <label for="name">Name :</label>
+            <input type="text" maxlength="10" minlength="3" required id="name" placeholder="Enter Your Name">
+            <br>
+            <br>
+
+            <label for="age">Age :</label>
+            <input id="age" max="130" required type="number" placeholder="Enter Age ">
+            <br><br>
+
+            <label for="phn">Phone No :</label>
+            <input id="phn" required type="tel" pattern="[6-9]{1}[0-9]{9}" placeholder="+91">
+            <br><br>
+
+            <label for="dob">Date Of Birth :</label>
+            <input id="dob" required type="month" placeholder="+91">
+            <br><br>
+
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" value="">Male
+            <input type="radio" name="gender" value="">Female
+            <input type="radio" name="gender" value="">Others
+            <br><br>
+
+            <label for="state">State :</label>
+            <select>
+                <option value="">choose state</option>
+                <option value="">KA</option>
+                <option value="KL">KL</option>
+                <option value="TL">TL</option>
+                <option value="AP">AP</option>
+                <option value="TN">TN</option>
+            </select>
+
+            <br><br>
+            <label for="addr">Address :</label>
+            <textarea placeholder="Enter Full Address" id="addr" cols="30"></textarea>
+
+            <br><br>
+            <label for="skill">Skills :</label>
+            <input type="checkbox"> Web technologies
+            <input type="checkbox"> API Integration
+            <input type="checkbox"> scaling
+            <br><br>
+
+            <label for="">Resume :</label>
+            <input type="file" accept=".pdf">
+            <br><br>
+
+
+            <button type="submit">Apply</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

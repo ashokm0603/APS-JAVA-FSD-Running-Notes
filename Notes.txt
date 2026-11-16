@@ -342,3 +342,196 @@ JDBC steps :
 
 
 
+
+
+HTML: 
+-----
+    ->HTML Stands for hyper text markup language 
+    ->HTML used to build structure  web pages 
+    ->HTML is one of the standard markup language
+    ->HTML contains series of ELEMENTS  
+    ->HTML 5 is the present version
+
+
+
+Web Application Types : 
+    1. Static web Applications
+        ->Any Web Application doesn't have Functionalities 
+        ->using HTML and CSS we can build static pages 
+
+    2. dynamic web Applications    
+        ->Any Web Application  having Functionalities 
+        ->using HTML, CSS and Javascript we can build dynamic pages 
+
+html structure/ html boiler plate : 
+-----------------------------------
+
+
+
+
+HTML ELEMENTS : 
+----------------
+    ->both opening tag and closing tag and the content together is called as HTML Element 
+    Ex: 
+        <h1>  HELLO </h1> , <p>  Para </p>
+
+Tags : 
+------
+    ->tags are predefine words which are inclosed with both opening and closing angular brackets
+    Ex: <meta> , <html>  </html> ,<div> </div>
+
+
+    Types: 
+        1. paired tags 
+            i. heading tags 
+                 <h1> </h1>
+                 <h2> </h2>
+                 <h3> </h3>
+                 <h4> </h4>
+                 <h5> </h5>
+                 <h6> </h6>
+
+
+
+            ii. formatting tags 
+                <b></b>                 ->bold
+                <strong> </strong>      ->bold
+                <i></i>                 ->italic 
+                <em></em>               ->italic
+                <u></u>                 ->underline 
+                <strike></strike>       ->line through 
+                <mark></mark>           ->highlight text 
+                <sub></sub>             ->subscript 
+                <sup></sup>             ->super script 
+                <marquee> </marquee>
+
+
+            iii. other tags 
+                <p></p> ,<span></span> ,<div></div> , semantic tags , list tags , table tags , media tags ..etc 
+
+        2. unpaired tags/ self closing tags 
+            <br> , <hr> , <input/> , <col> ..etc  
+
+
+
+
+Attributes : 
+-----------
+    ->Attributes are the additional information given to the tags 
+    ->Attributes are always in opening tag 
+    ->Attributes are always in key value pair 
+    ->Every tags having Attributes
+    
+marquee tag Attributes : 
+------------------------
+    1. behavior : scroll , slide , alternate 
+    2. direction : up , down , right , lift 
+    3. scrollamount : 
+    4. height
+    5. width
+    6. loop 
+
+
+List tags : 
+----------
+     1. Order list 
+        -> order list are used display items in order formate 
+        ->order list tags 
+             i. <ol></ol> 
+             ii. <li></li>
+
+        ->order list Attributes 
+            i.type : 1 , A, a , i , I 
+            ii.start :
+            iii.reverse 
+
+
+     2. unordered list 
+        -> unordered list are used display items in symbolic formate 
+        ->unordered list tags 
+             i. <ul></ul> 
+             ii. <li></li>
+
+        ->unordered list Attributes 
+            i.type : none , disc ,circle , square  
+
+
+     3. description list/ definition list 
+        ->description list is used to define terms 
+        Tags : 
+            1. <dl> </dl>  ->description list 
+            2. <dt></dt>   ->description term 
+            3. <dd></dd>   ->description data 
+
+
+
+     4. nested list 
+
+
+
+Table Tags 
+-----------
+    1. <table></table>
+    2. <tbody></tbody>
+    3. <tfoot></tfoot>
+    4. <thead></thead>
+    5. <tr></tr> 
+    6. <td></td>
+    7. <th></th>
+
+
+table Tags Attributes : 
+-------------------------
+    1. border 
+    2. cellpadding 
+    3. cellspacing
+    4. align 
+    5. bgcolor
+
+
+forms : 
+-------
+    ->forms are used to user information digitally
+
+form tags : 
+-----------
+    1. <form></form>
+    2. <fieldset></fieldset>
+    3. <legend></legend>
+    4. <label></label>
+    5. <input/>
+    6. <select></select>    -> <option></option>
+    7. <textarea> </textarea>
+    8. <button></button>
+
+input Type values: 
+    1. text 
+    2. email 
+    3. tel 
+    4. number 
+    5. search 
+    6. date 
+    7. dattime-local 
+    8. week 
+    9. month 
+    10. year 
+    11. file 
+    12. radio 
+    13. range 
+    14. image 
+    15. checkbox 
+    16. url 
+
+
+input Attributes: 
+----------------
+    1. type 
+    2. id 
+    3. name 
+    4. placeholder 
+    5. pattern
+    6. required 
+    7. minlength 
+    8. maxlength 
+    9. min 
+    10. max 
